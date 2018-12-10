@@ -6,7 +6,7 @@ A simple go implemention of Naivechain (https://github.com/lhartikk/naivechain).
 ```
 go build 
 ./naivechain-go
-./naivechain-go -httpPort=4000 -
+./naivechain-go -httpPort=4000 -initialPeers=localhost:3000
 ```
 
 ### HTTP API
